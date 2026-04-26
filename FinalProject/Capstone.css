@@ -27,6 +27,10 @@ nav > ul > li > a{
     color: #D5B2A8;
     text-decoration: none;
 }
+nav > ul > li > a[aria-current="page"] {
+        font-weight: 600;
+        font-size: 21px;
+    }
 nav > ul > li > a:hover {
     color: #2F6FDE;
     text-decoration: underline;
@@ -666,7 +670,7 @@ nav > ul > li > a:hover {
         width: 88%;
     }
     .speakers-header {
-        width: 88%;
+        width: 80%;
     }
     #NavList {
         width: 100vw;
